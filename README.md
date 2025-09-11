@@ -11,7 +11,7 @@
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
 | Larry To     | @LarryTo      | [contribution goes here]   |
 | Imandi Kathriarachchi      | @imandi01    | [contribution goes here]            |
-| Grace Yan      | @__    | [contribution goes here]            |
+| Grace Yan      | @mengmenggy    | [contribution goes here]            |
 | Suman Bista      | @sumabista    | [contribution goes here]           |
 
 
