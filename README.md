@@ -6,7 +6,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Lakshita Madhavan   | @lakshita1212 | data cleaning, model building & evaluating, overall project manager           |
+| Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating          |
 | Michelle Rahman   | @michelle-rahman   | [contribution goes here] |
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
 | Larry To     | @LarryTo      | [contribution goes here]   |
