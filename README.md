@@ -69,6 +69,18 @@
 
 ## 📄 **References** 
 
+Breiman, L. (2001). Random Forests. Machine Learning.
+
+Chen, T., & Guestrin, C. (2016). XGBoost: A Scalable Tree Boosting System. Proceedings of the 22nd ACM SIGKDD.
+
+Scikit-learn Developers. (2024). scikit-learn Documentation. https://scikit-learn.org
+
+XGBoost Documentation. https://xgboost.readthedocs.io
+
+YouTube Developer API Documentation. https://developers.google.com/youtube
+
+Kaggle. YouTube Trending Videos Dataset
+
 
 ---
 
