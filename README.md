@@ -77,8 +77,6 @@ Scikit-learn Developers. (2024). scikit-learn Documentation. https://scikit-lear
 
 XGBoost Documentation. https://xgboost.readthedocs.io
 
-YouTube Developer API Documentation. https://developers.google.com/youtube
-
 Kaggle. YouTube Trending Videos Dataset
 
 
