@@ -51,7 +51,9 @@
 ## 📈 **Results & Key Findings**
 
 
-* 
+* 🔍 Overall Model Performance
+
+To predict whether a YouTube video would continue trending for 7+ days, I trained and compared several machine learning models. All models used the same preprocessing pipeline and were evaluated using accuracy, precision, recall, and F1 score.
 
 ---
 
