@@ -10,7 +10,7 @@
 | Michelle Rahman   | @michelle-rahman   | [contribution goes here] |
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
 | Larry To     | @LarryTo      | feature engineering, logistic regression, project management (November)  |
-| Imandi Kathriarachchi      | @imandi01    | [contribution goes here]            |
+| Imandi Kathriarachchi      | @imandi01    | Standardizing categorical variables, normalize numerical features, Data Splitting            |
 | Grace Yan      | @__    | [contribution goes here]            |
 | Suman Bista      | @sumabista    | [contribution goes here]           |
 
