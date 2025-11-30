@@ -59,12 +59,16 @@ To predict whether a YouTube video would continue trending for 7+ days, I traine
 
 ## 🚀 **Next Steps**
 
-**
+* Incorporate textual features (titles, descriptions, tags) using NLP methods to improve prediction performance.
+* Expand the dataset to include all nine available regions to increase model generalizability.
+* Enhance feature engineering with sentiment analysis, topic modeling, and keyword extraction.
+* Build a simple dashboard or visualization for creators to test video attributes and see predicted virality.
 
 ---
 
 ## 📝 **License**
 
+Not applicable — the project is not open source.
 
 
 ---
