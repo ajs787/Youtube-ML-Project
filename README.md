@@ -9,7 +9,7 @@
 | Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating          |
 | Michelle Rahman   | @michelle-rahman   | [contribution goes here] |
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
-| Larry To     | @LarryTo      | [contribution goes here]   |
+| Larry To     | @LarryTo      | feature engineering, logistic regression, project management (November)  |
 | Imandi Kathriarachchi      | @imandi01    | [contribution goes here]            |
 | Grace Yan      | @__    | [contribution goes here]            |
 | Suman Bista      | @sumabista    | [contribution goes here]           |
@@ -27,9 +27,7 @@
 
 ## 👩🏽‍💻 **Setup and Installation**
 
-**
-
----
+* For the setup, we started by pulling the YouTube Trending Videos dataset from Kaggle and configuring a shared Google Colab notebook so the team could work in the same environment. In Colab, we connected our Google Drive, mounted the Kaggle files, and imported the CSVs directly into pandas so we could immediately explore and preprocess the data. To keep our work organized, we also created a shared Excel/Sheets tracker where we logged tasks, owners, and due dates for data cleaning, feature engineering, modeling, and presentation prep, which helped keep everyone aligned on priorities and progress.
 
 ## 🏗️ **Project Overview**
 
