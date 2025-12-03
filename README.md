@@ -53,15 +53,15 @@
 
 To predict whether a YouTube video would continue trending for 7+ days, I trained and compared several machine learning models. All models used the same preprocessing pipeline and were evaluated using accuracy, precision, recall, and F1 score.
 
-  *🌲 Random Forest: ~0.82 accuracy
+  *🌲 Random Forest: ~0.82 accuracy*
 
-  *⚡ XGBoost: ~0.82 accuracy
+  *⚡ XGBoost: ~0.82 accuracy*
 
-  *🐱 CatBoost: ~0.82 accuracy
+  *🐱 CatBoost: ~0.82 accuracy*
 
-  *🌳 Decision Tree, KNN, SVM: ~0.75–0.76 range
+  *🌳 Decision Tree, KNN, SVM: ~0.75–0.76 range*
 
-  *📉 Logistic Regression: ~0.73 accuracy
+  *📉 Logistic Regression: ~0.73 accuracy*
 
 Based on both performance and stability, Random Forest, XGBoost, and CatBoost were selected as our primary models for interpretation.
 
@@ -69,15 +69,15 @@ Based on both performance and stability, Random Forest, XGBoost, and CatBoost we
 
 Across the best-performing models, the most important features were:
 
-  *🌍 country_uniqueID – strong regional differences in how long videos stay trending
+  *🌍 country_uniqueID – strong regional differences in how long videos stay trending*
 
-  *📊 Engagement strength: view_count, likes, dislikes, comment_count
+  *📊 Engagement strength: view_count, likes, dislikes, comment_count*
 
-  *📈 Engagement ratios: likes_to_views_ratio, comments_to_views_ratio, dislikes_to_views_ratio
+  *📈 Engagement ratios: likes_to_views_ratio, comments_to_views_ratio, dislikes_to_views_ratio*
 
-  *🏷️ Metadata richness: title_length, tags_length, number of tags
+  *🏷️ Metadata richness: title_length, tags_length, number of tags*
 
-  *🕒 Posting patterns: published_hour, day of week, and time-of-day categories
+  *🕒 Posting patterns: published_hour, day of week, and time-of-day categories*
 
 **🧠 Takeaways**
 
