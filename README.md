@@ -6,14 +6,13 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating          |
-| Michelle Rahman   | @michelle-rahman   | [contribution goes here] |
+| Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating, project management (August 2025)        |
+| Michelle Rahman   | @michelle-rahman   | feature selection, model building (Random Forest) & hyperparameter tuning, project management (September 2025) |
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
 | Larry To     | @LarryTo      | [contribution goes here]   |
 | Imandi Kathriarachchi      | @imandi01    | [contribution goes here]            |
 | Grace Yan      | @mengmenggy    | [contribution goes here]            |
 | Suman Bista      | @sumabista    | [contribution goes here]           |
-
 
 
 ---
@@ -34,6 +33,34 @@
 - 
 
 ---
+
+## 🔍 Data Pipeline: Understanding & Preprocessing
+### 1. Data Acquisition & Scope
+To build a model capable of understanding **global viral mechanics**, we sourced daily trending video records from 11 distinct global markets.
+
+* **Source:** [YouTube Trending Video Dataset (Kaggle)](https://www.kaggle.com/datasets/rsrishav/youtube-trending-video-dataset)
+* **Scope:** 11 Regions (🇺🇸 US, 🇨🇦 CA, 🇬🇧 GB, 🇷🇺 RU, 🇩🇪 DE, 🇫🇷 FR, 🇯🇵 JP, 🇰🇷 KR, 🇮🇳 IN, 🇲🇽 MX, 🇧🇷 BR).
+* **Sampling Strategy:** We applied **Stratified Sampling** (5,000 unique videos per country) to ensure equal representation and prevent high-volume markets like the US or India from biasing the model.
+
+### 2. Dataset Schema
+We consolidated 11 disparate CSV files into a unified schema containing **17 core features**.
+
+| Feature Category | Columns |
+| :--- | :--- |
+| **Engagement Metrics** | `view_count`, `likes`, `dislikes`, `comment_count` |
+| **Metadata** | `title`, `tags`, `description`, `categoryId`, `thumbnail_link` |
+| **Temporal** | `publishedAt`, `trending_date` |
+| **System Flags** | `comments_disabled`, `ratings_disabled` |
+| **Identity** | `video_id`, `channelId`, `channelTitle`, `country_uniqueID` |
+
+### 3. Data Cleaning
+We performed a rigorous audit of the raw data (approx. 320,000 records) to ensure signal quality before modeling.
+
+#### A. Handling Missing Values
+* **Engagement Metrics:** We confirmed that critical numerical columns (`view_count`, `likes`, `dislikes`) contained **0 null values** across the entire dataset. This high data integrity allowed us to avoid aggressive imputation on target features.
+* **Text Data:** The only column with significant missing data was `description` (~8,500 entries).
+    * **Action:** Imputed missing values with empty strings (`""`).
+    * **Reasoning:** To maintain consistency for NLP feature extraction and ensure the text fields remained valid strings for vectorization.
 
 ## 📊 **Data Exploration**
 
@@ -87,12 +114,16 @@ Overall, the results suggest that virality persistence is not random. Early enga
 
 ## 🚀 **Next Steps**
 
-**
+* Incorporate textual features (titles, descriptions, tags) using NLP methods to improve prediction performance.
+* Expand the dataset to include all nine available regions to increase model generalizability.
+* Enhance feature engineering with sentiment analysis, topic modeling, and keyword extraction.
+* Build a simple dashboard or visualization for creators to test video attributes and see predicted virality.
 
 ---
 
 ## 📝 **License**
 
+Not applicable — the project is not open source.
 
 
 ---
