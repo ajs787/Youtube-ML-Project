@@ -10,7 +10,7 @@
 | Michelle Rahman   | @michelle-rahman   | feature selection, model building (Random Forest) & hyperparameter tuning, project management (September 2025) |
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
 | Larry To     | @LarryTo      | feature engineering, model building (Logistic Regression) & hyperparameter tuning, project management (November 2025)  |
-| Imandi Kathriarachchi      | @imandi01    | standardizing categorical variables, normalize numerical features, data splitting, project management (December 2025)            |
+| Imandi Kathriarachchi      | @imandi01    | standardizing categorical variables, normalize numerical features, data splitting, model building(SVM), project management (December 2025)            |
 | Grace Yan      | @__    | [contribution goes here]            |
 | Suman Bista      | @sumabista    | data understanding and preprocessing, model building (Decision Tree) & evaluating, project management (October 2025)          |
 
