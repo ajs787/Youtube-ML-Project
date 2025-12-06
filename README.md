@@ -7,12 +7,12 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating, project management (August 2025)        |
-| Michelle Rahman   | @michelle-rahman   | feature selection, model building (Random Forest) & optimizing, project management (September 2025) |
+| Michelle Rahman   | @michelle-rahman   | feature selection, model building (Random Forest) & hyperparameter tuning, project management (September 2025) |
 | Audrey Shin    | @ajs787  | [contribution goes here]                  |
-| Larry To     | @LarryTo      | feature engineering, model building (Logistic Regression) & optimizing, project management (November 2025)  |
+| Larry To     | @LarryTo      | feature engineering, model building (Logistic Regression) & hyperparameter tuning, project management (November 2025)  |
 | Imandi Kathriarachchi      | @imandi01    | standardizing categorical variables, normalize numerical features, data splitting, project management (December 2025)            |
 | Grace Yan      | @__    | [contribution goes here]            |
-| Suman Bista      | @sumabista    | data understanding and preprocessing, model selection & evaluation -- decision tree, project management (October 2025)          |
+| Suman Bista      | @sumabista    | data understanding and preprocessing, model building (Decision Tree) & evaluating, project management (October 2025)          |
 
 
 
