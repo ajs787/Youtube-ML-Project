@@ -8,7 +8,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating, project management (August 2025)        |
 | Michelle Rahman   | @michelle-rahman   | feature selection, model building (Random Forest) & hyperparameter tuning, project management (September 2025) |
-| Audrey Shin    | @ajs787  | [contribution goes here]                  |
+| Audrey Shin    | @ajs787  | data ingestion and environment setup, exploratory data analysis refinement, model building (XGBoost) & evaluating (September 2025)                  |
 | Larry To     | @LarryTo      | feature engineering, model building (Logistic Regression) & hyperparameter tuning, project management (November 2025)  |
 | Imandi Kathriarachchi      | @imandi01    | standardizing categorical variables, normalize numerical features, data splitting, model building(SVM), project management (December 2025)            |
 | Grace Yan      | @mengmenggy    | data exploration for different countries, model evalution (August 2025)     |
