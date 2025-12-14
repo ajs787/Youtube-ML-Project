@@ -41,15 +41,17 @@
 
 **YouTube Viral Video Longevity**
 
-The goal of this project is to build a machine learning model that predicts whether a YouTube video will continue trending over time, rather than experiencing a short-lived spike in popularity. Using the YouTube Trending Video Dataset from Kaggle, we analyzed engagement metrics, video metadata, timing patterns, and regional information across 11 countries to better understand the drivers of sustained virality.
+The goal of this project is to build a machine learning model that predicts whether a YouTube video will continue trending over time, rather than experiencing a short-lived spike in popularity. 
 
-We framed this as a binary classification problem, defining a video as continuing to trend if it remained on the trending page for seven or more days. Multiple machine learning models: including KNN, Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost, and SVM were trained and evaluated using consistent preprocessing and performance metrics (accuracy, precision, recall, and F1 score).
+* Using the YouTube Trending Video Dataset from Kaggle, we analyzed engagement metrics, video metadata, timing patterns, and regional information across 11 countries to better understand the drivers of sustained virality.
 
-The final outcome is a comparative modeling framework that not only predicts long-term virality with strong performance, but also provides interpretable insights into what factors, such as early engagement strength, posting time, metadata richness, and regional context, most strongly influence how long a video stays trending. These insights are directly applicable to content creators, marketing strategists, and analytics teams seeking to optimize content strategy and timing.
+* We framed this as a binary classification problem, defining a video as continuing to trend if it remained on the trending page for seven or more days. Multiple machine learning models: including KNN, Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost, and SVM were trained and evaluated using consistent preprocessing and performance metrics (accuracy, precision, recall, and F1 score).
+
+* The final outcome is a comparative modeling framework that not only predicts long-term virality with strong performance, but also provides interpretable insights into what factors, such as early engagement strength, posting time, metadata richness, and regional context, most strongly influence how long a video stays trending. These insights are directly applicable to content creators, marketing strategists, and analytics teams seeking to optimize content strategy and timing.
 
 ---
 
-## 🔍 Data Pipeline: Understanding & Preprocessing
+## 🔍 Data Exploration: Understanding & Preprocessing
 ### 1. Data Acquisition & Scope
 To build a model capable of understanding **global viral mechanics**, we sourced daily trending video records from 11 distinct global markets.
 
@@ -76,10 +78,6 @@ We performed a rigorous audit of the raw data (approx. 320,000 records) to ensur
 * **Text Data:** The only column with significant missing data was `description` (~8,500 entries).
     * **Action:** Imputed missing values with empty strings (`""`).
     * **Reasoning:** To maintain consistency for NLP feature extraction and ensure the text fields remained valid strings for vectorization.
-
-## 📊 **Data Exploration**
-
-* 
 
 ---
 
