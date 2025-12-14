@@ -8,10 +8,10 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Lakshita Madhavan   | @lakshita1212 | data exploration, model building & evaluating, project management (August 2025)        |
 | Michelle Rahman   | @michelle-rahman   | feature selection, model building (Random Forest) & hyperparameter tuning, project management (September 2025) |
-| Audrey Shin    | @ajs787  | data ingestion and environment setup, exploratory data analysis refinement, model building (XGBoost) & evaluating (September 2025)                  |
+| Audrey Shin    | @ajs787  | data importing, environment setup, exploratory data analysis refinement, model building (XGBoost) & evaluating                  |
 | Larry To     | @LarryTo      | feature engineering, model building (Logistic Regression) & hyperparameter tuning, project management (November 2025)  |
-| Imandi Kathriarachchi      | @imandi01    | standardizing categorical variables, normalize numerical features, data splitting, model building(SVM), project management (December 2025)            |
-| Grace Yan      | @mengmenggy    | data exploration for different countries, model evalution (August 2025)     |
+| Imandi Kathriarachchi      | @imandi01    | standardizing categorical variables, normalize numerical features, data splitting, model building (Support Vector Machine), project management (December 2025)            |
+| Grace Yan      | @mengmenggy    | data exploration for different countries, model evalution     |
 | Suman Bista      | @sumabista    | data understanding and preprocessing, model building (Decision Tree) & evaluating, project management (October 2025)          |
 
 
@@ -20,8 +20,15 @@
 
 ## 🎯 **Project Highlights**
 
+* **Predictive ML Model**: Built a machine learning model to predict YouTube video virality using 321K videos from 11 countries. Compared 6 algorithms (KNN, Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost) with Random Forest achieving best performance at 81.81% accuracy.
 
-- 
+* **Feature Engineering**: Engineered meaningful features including engagement ratios (likes/views, comments/views), timing factors (day, hour, time-of-day categories), and viral lifespan metrics (days trending ≥ 7) to transform raw metadata into actionable insights.
+
+* **Key Insights on Timing**: Discovered that morning video uploads have the highest likelihood of sustained virality, followed by nighttime and afternoon. Strong early engagement (high likes and comments-to-view ratios) significantly helps videos trend longer.
+
+* **Content Strategy Findings**: Found that like-to-view ratio remains consistent (~6.3%) regardless of trending duration, suggesting creators should prioritize video duration and watch time over immediate likes for long-term success.
+
+* **Future Improvements Identified**: Outlined clear next steps including NLP integration for content analysis (titles, descriptions, tags), topic modeling to identify trending themes, and incorporation of external factors like algorithm changes and viral social media trends.
 
 ---
 
