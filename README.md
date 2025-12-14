@@ -39,13 +39,13 @@
 ## 🏗️ **Project Overview**
 
 
-* **YouTube Viral Video Longevity**
+**YouTube Viral Video Longevity**
 
-* The goal of this project is to build a machine learning model that predicts whether a YouTube video will continue trending over time, rather than experiencing a short-lived spike in popularity. Using the YouTube Trending Video Dataset from Kaggle, we analyzed engagement metrics, video metadata, timing patterns, and regional information across 11 countries to better understand the drivers of sustained virality.
+The goal of this project is to build a machine learning model that predicts whether a YouTube video will continue trending over time, rather than experiencing a short-lived spike in popularity. Using the YouTube Trending Video Dataset from Kaggle, we analyzed engagement metrics, video metadata, timing patterns, and regional information across 11 countries to better understand the drivers of sustained virality.
 
-* We framed this as a binary classification problem, defining a video as continuing to trend if it remained on the trending page for seven or more days. Multiple machine learning models: including KNN, Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost, and SVM were trained and evaluated using consistent preprocessing and performance metrics (accuracy, precision, recall, and F1 score).
+We framed this as a binary classification problem, defining a video as continuing to trend if it remained on the trending page for seven or more days. Multiple machine learning models: including KNN, Logistic Regression, Decision Tree, Random Forest, XGBoost, CatBoost, and SVM were trained and evaluated using consistent preprocessing and performance metrics (accuracy, precision, recall, and F1 score).
 
-* The final outcome is a comparative modeling framework that not only predicts long-term virality with strong performance, but also provides interpretable insights into what factors, such as early engagement strength, posting time, metadata richness, and regional context, most strongly influence how long a video stays trending. These insights are directly applicable to content creators, marketing strategists, and analytics teams seeking to optimize content strategy and timing.
+The final outcome is a comparative modeling framework that not only predicts long-term virality with strong performance, but also provides interpretable insights into what factors, such as early engagement strength, posting time, metadata richness, and regional context, most strongly influence how long a video stays trending. These insights are directly applicable to content creators, marketing strategists, and analytics teams seeking to optimize content strategy and timing.
 
 ---
 
